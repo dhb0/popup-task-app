@@ -1,0 +1,54 @@
+#side-bar {
+  flex: 1;
+}
+
+#side-bar .form-container {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#side-bar form {
+  width: 80%;
+  text-align: left;
+}
+
+#side-bar form .input-group {
+  margin-top: 1.5rem;
+}
+
+#side-bar .form-container h3 {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 24px;
+  margin-bottom: 0;
+  width: 80%;
+}
+
+#side-bar form label {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+#side-bar form input,
+textarea {
+  border: 1px solid #d2dae3;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0.5rem;
+}
+
+#side-bar form input,
+textarea {
+  resize: none;
+}
+
+#side-bar form input {
+  height: 2.5rem;
+}
